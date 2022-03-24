@@ -2,11 +2,12 @@ var txt = "An aspiring and visonary individual currently pursuing his graduation
 "in Electronic and Communication at Raghu Engineering College from city " +
 "of Desitiny - Visakhapatnam.He is a fast learner and software developer "+
 "enthusiast and loves building project.";
+
 var i =0;
 var speed = 60;
 function typeWriter() {
     if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
+        document.getElementById("write").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typeWriter, speed);
     }

@@ -53,8 +53,24 @@ body{
     /* background-color:aquamarine; */
 }
 
-.text_display {
-    height: 100%;
-    width: 100%;
-   
+@media screen and (min-width:420px) {
+
+    .text_display {
+        height: 100%;
+        width: 100%;
+        margin-right: 50px;
+    } 
+    
+    p.disp_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    
 }
+
+.text_display {
+    margin: 0px 15px 0px;
+}
+
