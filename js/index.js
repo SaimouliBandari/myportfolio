@@ -12,7 +12,7 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
         if(i === (txt.length-1)){
-            alert("This site is under Maintenance");
+            alert("This site is under Maintenance, I'm currently working on this webpage");
         }
     }
     
