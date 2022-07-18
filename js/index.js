@@ -11,9 +11,9 @@ function typeWriter() {
         document.getElementById("write").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typeWriter, speed);
-        if(i === (txt.length-1)){
-            alert("This site is under Maintenance, I'm currently working on this webpage");
-        }
+        // if(i === (txt.length-1)){
+        //     alert("This site is under Maintenance, I'm currently working on this webpage");
+        // }
     }
     
 }
@@ -29,17 +29,8 @@ $(document).ready(function(){
         $(".text_display").add();
        $(this).delay(2000).queue(function(){
             typeWriter();
-       });
+      });
        
     },9000);
 
-    
-
-   
-
-   
-
-   
-    
-
-  });
+});

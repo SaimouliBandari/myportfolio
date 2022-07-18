@@ -1,7 +1,13 @@
-body{
-    background-color:#181717; 
-    /* background-color: white; */
+html,body{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),
+                  url("/images/disp.jpeg");
+                  background-repeat: no-repeat;
+                  background-size: 100% !important;
+    height: 100%;
     color: rgb(247, 242, 242);
+}
+div{
+    border:1px solid;
 }
 .bg-primary {
     background: fixed;
@@ -44,13 +50,25 @@ body{
     height: 100%;
 }
 
+.abstract_disp {
+    /* background-image: url('/images/disp.jpeg'); */
+    min-width: 50%;
+    min-height: 25%;
+}
+
 .animation_div {
     margin-top: 100px;
     min-height: 400px;
     max-height: 500px;
     min-width: 100% !important;
     max-width: 100% !important;
-    /* background-color:aquamarine; */
+    /* background-color: #181717; */
+    ;
+}
+.solid_line {
+    border-left: 3px solid white;
+    min-height: 100% !important;
+    
 }
 
 @media screen and (min-width:420px) {
@@ -69,7 +87,26 @@ body{
     }
     
 }
+.card{
+   /* background-image:linear-gradient(rgb(131, 163, 157,0), rgba(24, 78, 226, 0)) ; */
+   background: hsla(0, 0%, 100%, 0); /*<!to make it transparent */
+   max-width: 300px;
+   min-height: 200px;
+   justify-content:center;
 
+  
+}
+.card.certificate {
+    /* background-image:url("/images/pngegg.png"); */
+                     /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),
+                     url("/images/disp.jpeg"); */
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.card-body{
+    font-weight: bold;
+    color: white;
+}
 .text_display {
     margin: 0px 15px 0px;
 }

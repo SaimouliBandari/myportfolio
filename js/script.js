@@ -33,23 +33,19 @@ slideTL
         delay: 0.5, 
         ease: "back.inOut(0.8)" 
     })
-    .to('#slidebar', 1.5, { 
-        x: 600, 
-        delay: 0.5, 
-        ease: "back.inOut(0.8)" 
-    })
     .to('#bar', 1, { 
         y: 500, 
         scaleY: 0.1, 
         ease: "back.in" 
     });
+    
 
 maskTL
     .to('#textone', 1.5, {
         ease: "back.inOut(0.8)", 
         "clip-path": "polygon(0 0, 91% 0, 81% 100%, 0% 100%)",
         onComplete: () => {
-            gsap.set('#texttwo', { opacity: 1 });
+           delay( gsap.set('#texttwo', { opacity: 1 }), 0.05 );
         }
     })
     .to('#textone', 1.5, {
@@ -64,9 +60,10 @@ maskTL
         delay: 0.5,
         ease: "back.inOut(0.8)", 
         "clip-path": "polygon(0 0, 91% 0, 81% 100%, 0% 100%)"
+        
     }); 
-
+    
 
 mainTL
     .add(slideTL)
-    .add(maskTL, 1.5);
+    .add(maskTL, 1.5); //1,5
