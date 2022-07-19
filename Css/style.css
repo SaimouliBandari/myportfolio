@@ -1,6 +1,6 @@
 html,body{
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),
-                  url("../images/disp.jpeg");
+                  url('../images/disp.jpeg');
                   background-repeat: no-repeat;
                   background-size: 100% !important;
     height: 100%;
