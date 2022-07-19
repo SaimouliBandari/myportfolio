@@ -3,7 +3,7 @@ html,body{
                   url("/images/disp.jpeg");
                   background-repeat: no-repeat;
                   background-size: 100% !important;
-    height: 100vh;
+    height: 100%;
     color: rgb(247, 242, 242);
 }
 /* div{
@@ -17,11 +17,7 @@ html,body{
     color: white;
     padding-right: 1px;
 }
-/* .row-full{
-    background-color: rgb(255, 188, 188);
-    position: block;
-    min-height: 100vh;
-} */
+
 .outer_avatar {
     display: flex;
     justify-content: center;
@@ -51,7 +47,6 @@ html,body{
 }
 
 .abstract_disp {
-    /* background-image: url('/images/disp.jpeg'); */
     min-width: 50%;
     min-height: 25%;
 }
@@ -62,8 +57,7 @@ html,body{
     max-height: 500px;
     min-width: 100% !important;
     max-width: 100% !important;
-    /* background-color: #181717; */
-    ;
+   
 }
 .solid_line {
     border-left: 3px solid white;
