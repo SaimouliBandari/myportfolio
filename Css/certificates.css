@@ -7,12 +7,9 @@ body {
 
 .carousel{
     padding: 25px 100px 25px;
-   
 }
 .carousel-indicators{
-   
     position: relative;
-    
 }
 
 .certificatesDiv {
@@ -35,4 +32,13 @@ img {
     .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 24px;
     height: 24px;
+}
+
+@media screen and (max-width: 425px) {
+    .carousel{
+        padding: 20px 40px 50px;
+    }
+    .carousel_col{
+        margin-top: 50%;
+    }
 }
