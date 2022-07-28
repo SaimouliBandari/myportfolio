@@ -1,6 +1,6 @@
-body {
+body,html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.563),rgba(52, 22, 123, 0.878));
-    color: white;
+    color: white !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
@@ -74,3 +74,17 @@ img {
     width: 38px;
     filter: invert(100%);
 }
+.certificate_view_div {
+    max-height: 90vh;
+    overflow-y: scroll;
+    color: white !important;
+}
+.certificate_view_div::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.certificate_view_div {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
