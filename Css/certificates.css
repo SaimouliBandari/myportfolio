@@ -28,7 +28,9 @@ body {
 }
 .carousel_col{
     margin-top: calc( (100vh - var(--imgh) )/ 2.5);
+    
 }
+
 
 img {
     /*image width and hight is 900 * 600 */
@@ -55,26 +57,20 @@ img {
     .carousel_col{
         margin-top: 5%;
     }
+    .certificatesDiv {
+        height: fit-content;
+    }
 }
-.certificate_title{
-   display: flex;
-   justify-content:flex-start;
-   align-items: center;
-   margin-top: 1vh;
-}
+/* .certificate_title{
+
+} */
 
 .viewButton {
     padding: 0;
     border: none;
     background: none;
-    width: 50px;
-    margin: 5px;
 }
-.fa-bars-staggered {
-    color: white !important;
-    font-size: 19px;
-}
- .grid-icon {
-    width: 30px;
+.grid-icon {
+    width: 38px;
     filter: invert(100%);
- }
+}
